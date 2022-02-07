@@ -1,0 +1,26 @@
+{
+  "name": "jamstack-blog",
+  "version": "1.0.0",
+  "description": "Jamstack app with 11ty",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pickle58/JAMstack-blog.git"
+  },
+  "author": "James Pilkington",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pickle58/JAMstack-blog/issues"
+  },
+  "homepage": "https://github.com/Pickle58/JAMstack-blog#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  },
+  "dependencies": {
+    "luxon": "^2.3.0"
+  }
+}
